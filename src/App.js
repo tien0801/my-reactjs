@@ -37,7 +37,7 @@ const App = () => {
     return (
         <div className="app">
             <Switch>
-                <Route path='/login' component={Login} exact/>
+                <Route path='/my-reactjs/login' component={Login} exact/>
                 <Route component={NotFound} />
             </Switch>
             {/* <Navbar totalItems={cart.total_items}></Navbar>
