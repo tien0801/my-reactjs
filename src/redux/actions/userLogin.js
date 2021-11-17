@@ -1,6 +1,6 @@
 import userApi from '../../api/userApi';
 import { loginProcess, loginSuccess, loginFail } from '../loginSlice';
-import { setToken, setTokenType } from '../../utils/localStorageHandle';
+import { setToken } from '../../utils/localStorageHandle';
 
 export const userLogin = (data) => (dispatch) => {
     dispatch(loginProcess());

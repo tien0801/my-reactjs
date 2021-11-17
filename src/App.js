@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router';
-import { Navbar, Products } from './components';
+// import { Navbar, Products } from './components';
 import Login from './features/Auth/page/Login';
 import NotFound from './components/NotFound';
-import { commerce } from './lib/commerce';
+// import { commerce } from './lib/commerce';
 import './App.css'
 
 const App = () => {

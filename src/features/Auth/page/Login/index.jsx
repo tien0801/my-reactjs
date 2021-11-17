@@ -1,4 +1,4 @@
-import { Col, Row, Typography } from 'antd';
+import { Col, Row } from 'antd';
 import React from 'react';
 import FormLogin from '../../component/FormLogin'
 

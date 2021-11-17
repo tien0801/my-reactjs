@@ -1,8 +1,7 @@
+import { Alert, Button, Checkbox, Form, Input } from 'antd';
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Alert, Form, Input, Button, Checkbox, Row } from 'antd';
-import { userLogin } from '../../../../redux/actions/userLogin';
 import { useDispatch, useSelector } from 'react-redux';
+import { userLogin } from '../../../../redux/actions/userLogin';
 
 function FormLogin() {
     const dispatch = useDispatch();
