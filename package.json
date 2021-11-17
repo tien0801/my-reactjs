@@ -2,7 +2,7 @@
   "name": "my-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tien0801.github.io/my-reactjs/",
+  "homepage": "https://tien0801.github.io/my-reactjs/",
   "dependencies": {
     "@chec/commerce.js": "^2.3.2",
     "@reduxjs/toolkit": "^1.6.2",
